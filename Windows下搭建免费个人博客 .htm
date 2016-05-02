@@ -1,0 +1,540 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0112)http://www.jianshu.com/p/3fd8cbc32d50 -->
+<!DOCTYPE html PUBLIC "" ""><!--[if IE 6]><html class="ie lt-ie8"><![endif]--><!--[if IE 7]><html class="ie lt-ie8"><![endif]--><!--[if IE 8]><html class="ie ie8"><![endif]--><!--[if IE 9]><html class="ie ie9"><![endif]--><!--[if !IE]><!--><HTML><!--<![endif]--><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+   
+<META charset="utf-8">   
+<META http-equiv="X-UA-Compatible" content="IE=Edge">   
+<META name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"> 
+  
+<META http-equiv="Cache-Control" content="no-siteapp">     
+<META name="description" content="三步完成免费个人博客搭建，本文主要针对Windows系统我的是WIN10，OSX请参考文章5分钟搭建免费个人博客1.创建Github域名和空间1.1注册首先需要注册一个Github账号，如果你已经有请跳过此步直接看1.2创建仓库，注意username，这会影响到你的域名，你的域名将会是username.github.io，所以认真的取个名字吧。注册过程可能需要验证你的邮箱，其他就不在赘述。1.2创建仓库然后需要创建一个仓库(repository)来存储我们的网站，点击首页任意位置出现的Newrepository..."> 
+  
+<META content="294ec9de89e7fadb" property="wb:webmaster">   
+<META content="104102651453316562112116375" property="qc:admins">   
+<META content="11635613706305617" property="qc:admins">   
+<META content="1163561616621163056375" property="qc:admins">   
+<META name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4"> 
+  
+<META name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI"> 
+  
+<META http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/3fd8cbc32d50?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qq"> 
+    <!--  Meta for Smart App Banner -->   
+<META name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/3697491"> 
+  <!-- End -->   <!--  Meta for Twitter Card -->   
+<META content="summary" property="twitter:card">   
+<META content="@jianshucom" property="twitter:site">   
+<META content="Windows下搭建免费个人博客" property="twitter:title">   
+<META content="三步完成免费个人博客搭建，本文主要针对Windows系统我的是WIN10，OSX请参考文章5分钟搭建免费个人博客1.创建Github域名和空间1.1注册首先需要注册一个Github账号，如果你已经有请跳过此步直接看1.2创建仓库，注意username，这会影响到你的域名，你的域名将会是username.github.io，所以认真的取个名字吧。注册过程可能需要验证你的邮箱，其他就不在赘述。1.2创建仓库然后需要创建一个仓库(repository)来存储我们的网站，点击首页任意位置出现的Newrepository..." 
+property="twitter:description">   
+<META content="http://www.jianshu.com/p/3fd8cbc32d50" property="twitter:url">   <!-- End --> 
+  <!--  Meta for OpenGraph -->   
+<META content="865829053512461" property="fb:app_id">   
+<META content="简书" property="og:site_name">   
+<META content="Windows下搭建免费个人博客" property="og:title">   
+<META content="article" property="og:type">   
+<META content="http://www.jianshu.com/p/3fd8cbc32d50" property="og:url">   
+<META content="三步完成免费个人博客搭建，本文主要针对Windows系统我的是WIN10，OSX请参考文章5分钟搭建免费个人博客1.创建Github域名和空间1.1注册首先需要注册一个Github账号，如果你已..." 
+property="og:description">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-a952ae6ccd1168d4.png" 
+property="og:image">     
+<META content="891" property="og:image:width">     
+<META content="585" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-4d0d427674c2e842.png" 
+property="og:image">     
+<META content="891" property="og:image:width">     
+<META content="585" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-4c9df1c4643641f2.png" 
+property="og:image">     
+<META content="975" property="og:image:width">     
+<META content="344" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-c4ea6627fc0d6a33.png" 
+property="og:image">     
+<META content="251" property="og:image:width">     
+<META content="145" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-977a1b4038cf2389.png" 
+property="og:image">     
+<META content="373" property="og:image:width">     
+<META content="31" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-028ae256635f5f62.png" 
+property="og:image">     
+<META content="389" property="og:image:width">     
+<META content="49" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-d41b74cb3620523b.png" 
+property="og:image">     
+<META content="1358" property="og:image:width">     
+<META content="648" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-5dc00387726c2678.png" 
+property="og:image">     
+<META content="536" property="og:image:width">     
+<META content="41" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-0de590aa7b94ca02.png" 
+property="og:image">     
+<META content="721" property="og:image:width">     
+<META content="214" property="og:image:height">     
+<META content="image/png" property="og:image:type">     
+<META content="http://upload-images.jianshu.io/upload_images/1936001-a7cffc486c2280dc.png" 
+property="og:image">     
+<META content="1362" property="og:image:width">     
+<META content="683" property="og:image:height">     
+<META content="image/png" property="og:image:type">   <!-- End -->   <!--  Meta for Facebook Applinks --> 
+  
+<META content="jianshu://notes/3697491" property="al:ios:url">   
+<META content="888237539" property="al:ios:app_store_id">   
+<META content="简书" property="al:ios:app_name">   
+<META content="jianshu://notes/3697491" property="al:android:url">   
+<META content="com.jianshu.haruki" property="al:android:package">   
+<META content="简书" property="al:android:app_name">   <!-- End -->   
+<TITLE>Windows下搭建免费个人博客 - 简书</TITLE>   
+<META name="csrf-param" content="authenticity_token"> 
+<META name="csrf-token" content="MI83/O5g/Y2CtY25lG8siewZdr89V2mrD5w6TRasNnfjCIqJ5j45bVycIIRQwlZcuh4pkfOEK08Wj7xPyADvBg=="> 
+  <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+  <LINK href="Windows下搭建免费个人博客%20-%20简书_files/base-f935477e8faba16f29c6f9e4f0e1d032.css" 
+rel="stylesheet" media="all">     <LINK href="Windows下搭建免费个人博客%20-%20简书_files/reading-note-4158a6eeb7c4e4a9fd15332778cfb52c.css" 
+rel="stylesheet" media="all">   <LINK href="Windows下搭建免费个人博客%20-%20简书_files/base-read-mode-64acccf6966299cfa3d580140a2582fe.css" 
+rel="stylesheet" media="all">   
+<SCRIPT src="http://cdn-qn0.jianshu.io/assets/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js"></SCRIPT>
+   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->   <!--[if IE 8]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]--> 
+  <!--[if lt IE 9]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]--> 
+  <LINK href="http://baijii-common.b0.upaiyun.com/icons/favicon.ico" rel="icon"> 
+      <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/57-b426758a1fcfb30486f20fd073c3b8ec.png" 
+rel="apple-touch-icon-precomposed" sizes="57x57">       <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/72-feca4b183b9d29fd188665785dc7a7f1.png" 
+rel="apple-touch-icon-precomposed" sizes="72x72">       <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/76-ba757f1ad3421192ce7192170393d2b0.png" 
+rel="apple-touch-icon-precomposed" sizes="76x76">       <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/114-8dae53b3bcea3f06bb139e329d1edab3.png" 
+rel="apple-touch-icon-precomposed" sizes="114x114">       <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/120-fa315ee0177dba4c55d4f66d4129b47f.png" 
+rel="apple-touch-icon-precomposed" sizes="120x120">       <LINK href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/152-052f5799bec8fb3aa624bdc72ef5bd1d.png" 
+rel="apple-touch-icon-precomposed" sizes="152x152">   <!-- Baidu stats -->   
+<SCRIPT>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0c0e9d9b1e7d617b3e6842e85b9fb068";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10586.212"></HEAD> 
+<BODY class="post output zh cn win ie ie11 reader-day-mode reader-font2" 
+data-locale="zh-CN" data-js-module="note-show">
+<DIV class="navbar navbar-jianshu shrink">
+<DIV class="dropdown"><A class="dropdown-toggle logo" id="dLabel" role="button" 
+href="javascript:void(0)" data-toggle="dropdown" data-target="#">简     </A>
+<UL class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+  <LI><A href="http://www.jianshu.com/"><I class="fa fa-home"></I> 首页</A></LI>
+  <LI><A href="http://www.jianshu.com/collections"><I class="fa fa-th"></I> 
+  专题</A></LI>
+  <LI><A href="http://www.jianshu.com/user_invitations"><I 
+  class="fa fa-money"></I> 发钱啦</A></LI></UL></DIV></DIV>
+<DIV class="navbar-user"><A class="login" href="http://www.jianshu.com/sign_up" 
+data-toggle="modal" data-signup-link="true"><I class="fa fa-user"></I> 注册 </A>   
+ <A class="login" href="http://www.jianshu.com/sign_in" data-toggle="modal" 
+data-signin-link="true"><I class="fa fa-sign-in"></I> 登录 </A>    <A class="daytime set-view-mode pull-right" 
+href="javascript:void(0)"><I class="fa fa-moon-o"></I></A> </DIV>
+<DIV class="navbar navbar-jianshu expanded">
+<DIV class="dropdown"><A class="active logo" role="button" href="http://www.jianshu.com/" 
+data-original-title="个人主页" data-container="div.expanded"><B>简</B><I class="fa fa-home"></I><SPAN 
+class="title">首页</SPAN> </A><A href="http://www.jianshu.com/collections" 
+data-original-title="专题" data-toggle="tooltip" data-container="div.expanded" 
+data-placement="right"><I class="fa fa-th"></I><SPAN class="title">专题</SPAN> 
+</A><A class="ad-selector" href="http://www.jianshu.com/apps"><I class="fa fa-mobile"></I><SPAN 
+class="title">下载手机应用</SPAN> </A>
+<DIV class="ad-container ">
+<DIV class="ad-pop"><IMG class="ad-logo" alt="114" src="Windows下搭建免费个人博客%20-%20简书_files/114-8dae53b3bcea3f06bb139e329d1edab3.png"> 
+        
+<P class="ad-title">简书</P>
+<P class="ad-subtitle">交流故事，沟通想法</P><IMG class="ad-qrcode" alt="Download app qrcode" 
+src="Windows下搭建免费个人博客%20-%20简书_files/download-app-qrcode-053849fa25f9b44573ef8dd3c118a20f.png"> 
+        
+<DIV><A class="ad-link" href="https://itunes.apple.com/cn/app/jian-shu/id888237539?ls=1&amp;mt=8">iOS</A>· 
+          <A class="ad-link" href="http://downloads.jianshu.io/apps/haruki/JianShu-1.10.5.apk">Android</A> 
+        </DIV></DIV></DIV></DIV>
+<DIV class="nav-user"><A href="http://www.jianshu.com/p/3fd8cbc32d50?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qq#view-mode-modal" 
+data-toggle="modal"><I class="fa fa-font"></I><SPAN 
+class="title">显示模式</SPAN></A><A class="signin" href="http://www.jianshu.com/sign_in" 
+data-original-title="登录" data-toggle="modal" data-signin-link="true" 
+data-container="div.expanded" data-placement="right"><I 
+class="fa fa-sign-in"></I><SPAN class="title">登录</SPAN> </A></DIV></DIV>
+<DIV class="fixed-btn"><A class="go-top hide-go-top" href="http://www.jianshu.com/p/3fd8cbc32d50?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qq#"><I 
+class="fa fa-angle-up"></I></A>     <A class="qrcode" href="javascript:void(0)" 
+data-toggle="modal" data-target="#bottom-qrcode"><I 
+class="fa fa-qrcode"></I></A>     <A title="写篇文章" class="writer" href="http://www.jianshu.com/writer#/" 
+data-toggle="tooltip" data-placement="left"><I class="fa fa-pencil"></I></A>     <!-- qrcode modal --> 
+    
+<DIV tabindex="-1" class="modal panel-modal hide fade" id="bottom-qrcode" role="dialog" 
+aria-hidden="true">
+<H4>下载简书移动应用</H4>
+<DIV class="panel-body"><IMG alt="Download app qrcode" src="Windows下搭建免费个人博客%20-%20简书_files/download-app-qrcode-85008f146773a25ce86bcc4d7858af68.png"></DIV></DIV></DIV>
+<DIV id="show-note-container">
+<DIV class="post-bg" id="flag">
+<DIV class="wrap-btn"><!-- Notebook and collections button upper left -->       
+<DIV class="article-related pull-left"><A class="collection-menu-btn" href="javascript:void(null);" 
+data-toggle="modal" data-target="#collection-menu"><I class="fa fa-th"></I> </A> 
+         <A class="notebooks-menu-btn" href="javascript:void(null);" 
+data-toggle="modal" data-target="#notebooks-menu"><I 
+class="fa fa-list-ul"></I></A>         
+<DIV class="related-avatar-group activities"></DIV></DIV><!-- ******* -->       
+<A class="login" href="http://www.jianshu.com/sign_up" data-toggle="modal" 
+data-signup-link="true"><I class="fa fa-user"></I> 注册 </A>  <A class="login" 
+href="http://www.jianshu.com/sign_in" data-toggle="modal" data-signin-link="true"><I 
+class="fa fa-sign-in"></I> 登录 </A>     <!-- Buttons upper right -->     <!-- ******* --> 
+  </DIV>
+<DIV class="container"><!-- Article activities for width under 768px -->     
+<DIV class="related-avatar-group activities"></DIV>
+<DIV class="article">
+<DIV class="preview">
+<DIV class="author-info">
+<DIV class="btn btn-small btn-success follow"><A href="http://www.jianshu.com/sign_in" 
+data-toggle="modal" data-signin-link="true"><I class="fa fa-plus"></I>  
+<SPAN>添加关注</SPAN></A>   </DIV><A class="avatar" href="http://www.jianshu.com/users/3b4c3f065315"><IMG 
+alt="100" src="Windows下搭建免费个人博客%20-%20简书_files/85af15e78aa3.jpg"> </A>           
+ <SPAN class="label">                作者             </SPAN>             <A 
+class="author-name blue-link" 
+href="http://www.jianshu.com/users/3b4c3f065315"><SPAN>qingfeng825</SPAN> </A>   
+           <SPAN>2016.04.25 23:13</SPAN>             
+<DIV><SPAN>写了1254字</SPAN>，<SPAN>被15人关注</SPAN>，<SPAN>获得了115个喜欢</SPAN>             
+</DIV></DIV>
+<H1 class="title">Windows下搭建免费个人博客</H1>
+<DIV class="meta-top"><SPAN class="wordage"></SPAN>             <SPAN class="views-count"></SPAN> 
+            <SPAN class="comments-count"></SPAN>             <SPAN class="likes-count"></SPAN> 
+          </DIV><!-- Collection/Bookmark/Share for width under 768px -->         
+  
+<DIV class="article-share"></DIV><!-- -->           
+<DIV class="show-content">
+<P>三步完成免费个人博客搭建，本文主要针对Windows系统我的是WIN10，OS X请参考文章<BR><A href="http://www.jianshu.com/p/4eaddcbe4d12" 
+target="_blank">5分钟 搭建免费个人博客</A></P>
+<H2>1.创建Github 域名和空间</H2>
+<H3>1.1注册</H3>
+<P>首先需要注册一个Github账号，如果你已经有请跳过此步直接看1.2创建仓库，注意username，这会影响到你的域名，你的域名将会是 
+username.github.io，所以认真的取个名字吧。<BR></P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-a952ae6ccd1168d4.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-a952ae6ccd1168d4.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P><BR>注册过程可能需要验证你的邮箱，其他就不在赘述。</P>
+<H3>1.2创建仓库</H3>
+<P>然后需要创建一个仓库(repository) 来存储我们的网站，点击首页任意位置出现的 
+<CODE>New repository</CODE>按钮创建仓库,<CODE>Respository name</CODE> 
+中的<CODE>username.github.io</CODE> 的<CODE>username</CODE>一定与前面的<CODE>Owner</CODE> 
+一致，记住你的<CODE>username</CODE>下面会用到。<BR></P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-4d0d427674c2e842.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-4d0d427674c2e842.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P>第一步就已经完成了，下面是安装。</P>
+<H2>2.安装</H2>
+<P>下面需要安装的工具包括<CODE>Github，Nodejs，Hexo</CODE>。Windows 
+用户自行搜索这些工具，直接安装即可。安装<CODE>node.js</CODE>和<CODE>git</CODE>（安装的是<CODE>GitHub</CODE>）。<CODE>hexo</CODE>利用<CODE>node.js</CODE>开发，安装<CODE>Github、Nodejs</CODE>后，用命令安装<CODE>hexo</CODE>。</P>
+<H3>2.1安装Github</H3>
+<P>可以去<A href="https://desktop.github.com/" 
+target="_blank">GitHub官方网站</A>下载。下载后直接安装即可。</P>
+<H3>2.2安装Nodejs</H3>
+<P>到<A href="https://nodejs.org/en/" 
+target="_blank">nodejs官方网站</A>直接下载，下载下来的msi包一直点击下一步即可，当然可以选择安装目录，本人选择安装在了D盘（c盘分的太小了）。我安装的是第一个版本。</P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-4c9df1c4643641f2.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-4c9df1c4643641f2.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<H3>2.3安装Hexo</H3>
+<P>以上都安装完成之后再安装Hexo,打开Git shell,如图</P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-c4ea6627fc0d6a33.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-c4ea6627fc0d6a33.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P><BR>输入命令 <CODE>npm install -g hexo</CODE><BR></P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-977a1b4038cf2389.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-977a1b4038cf2389.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P><BR>到这里所有必须工具已经安装完成，下面我们就可以生成博客，上传至我们的Github 仓库了。</P>
+<H2>3. 编写，发布</H2>
+<P>接下来我们需要用Hexo初始化一个博客，然后更改一些自定义的配置，或者加上自己喜欢的主题，写上第一篇文章，然后发布到自己的个人Github网站(<CODE>qingfeng825.github.io</CODE>)。</P>
+<H3>3.1创建博客</H3>
+<P>将下面的 qingfeng825 替换成你自己的username，执行成功后，会创建出一个名为 qingfeng825.github.io 
+的文件夹，博客相关的配置、主题与文本内容等都在此目录下由 hexo 进行管理。当然这里的命令也是在Git 
+Shell中敲的。命令为<CODE>hexo init qingfeng825.github.io</CODE> </P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-028ae256635f5f62.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-028ae256635f5f62.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<H3>3.2编辑文章</H3>
+<P>完成上述步骤后，本地的 hexo 已经基本搭建完成了。<BR>现在，我们希望新建一篇名为Hello 
+World的文章（我不会告诉你我是做Android开发的）。在 shell 
+中执行：<CODE>cd qingfeng825.github.io</CODE>将工作目录切换到\qingfeng825.github.io下，如果已经在此目录下则直接进行如下命令<CODE>hexo new "Hello World"!</CODE>,然后输入命令：<CODE>hexo server</CODE>，<BR>成功执行上述指令后，打开浏览器，访问 
+localhost:4000，如果出现下图中的Hello World则说明你的 hexo 博客已经搭建成功了。如果你希望退出服务，输入 ctrl + C 
+即可。<BR></P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-d41b74cb3620523b.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-d41b74cb3620523b.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P><BR>，没有出现完全相同的界面也不要急，因为我是提前做好了主题设置，下面会涉及到只要看到Hello World即可。</P>
+<H3>3.3安装hexo-deployer-git自动部署发布工具</H3>
+<P>要想把文章发布出去，必须安装<CODE>deployer</CODE>命令如下图</P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-5dc00387726c2678.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-5dc00387726c2678.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<H3>3.4修改_config.yml</H3>
+<P>发布之前还有一些工作要做那就是配置_config.yml，</P>
+<UL>
+  <LI>
+  <P>deploy:</P></LI>
+  <LI>
+  <P>type: git</P></LI>
+  <LI>
+  <P>repo: git@github.com:qingfeng825/qingfeng825.github.io.git</P></LI>
+  <LI>branch: master</LI></UL>
+<P>看准了所有：后面有一个英文空格，没有会出错的。</P>
+<H3>3.5发布</H3>
+<P>配置完这些信息后可以敲命令了如图。<BR>两个命令分别为<CODE>hexo generate</CODE>和<BR><CODE>hexo deploy</CODE>（注意顺序不要乱）<BR></P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-0de590aa7b94ca02.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-0de590aa7b94ca02.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P><BR>完成这些操作之后你就可以点击<A href="http://qingfeng825.github.io/" 
+target="_blank">http://qingfeng825.github.io/</A>访问了。<BR>最后应该是类似这个样子的</P>
+<DIV class="image-package"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/1936001-a7cffc486c2280dc.png" 
+data-original-src="http://upload-images.jianshu.io/upload_images/1936001-a7cffc486c2280dc.png?imageMogr2/auto-orient/strip%7CimageView2/2"><BR>
+<DIV class="image-caption"></DIV></DIV>
+<P>。</P>
+<H2>4 主题设置</H2>
+<P>选择一款适合你的主题<BR>hexo 默认的主题样式是 landscape，也许你希望使用更多样、更个性化的主题风格。在 github 上有许多开源的 
+hexo 主题，你只需要把它们克隆到 ~/blog/themes 目录下(通过git命令下载皮肤git clone https://github.com/A-limon/pacman.git themes/pacman)，并在 ~/blog/_config.yml 的 theme(编辑文件_config.yml，找到theme一行，改成 theme: pacman) 
+属性中设置你希望使用的主题，然后重新生成页面部署即可。<BR>这里推荐几个在 github 上 star 数较高的主题：</P>
+<UL>
+  <LI>
+  <P><A href="https://github.com/litten/hexo-theme-yilia" 
+  target="_blank">Yilia</A></P></LI>
+  <LI>
+  <P><A href="https://github.com/iissnan/hexo-theme-next" 
+  target="_blank">next</A></P></LI></UL>
+<P>这些主题怎么配置在这里就不讲了，因为他们都是开源的而且项目本身介绍已经很详细。<BR>当然，如果你自己就是一名优秀的前端工程师，甚至可以自己定制一份属于自己独一无二的<CODE>hexo-theme</CODE>，你还可以把你的作品开源到 
+<CODE>github</CODE> 上供更多的 <CODE>hexo</CODE>用户使用与学习。</P>
+<P>参考文章有如下几篇</P>
+<UL>
+  <LI>
+  <P><A href="http://www.jianshu.com/p/bdb333a4391d" target="_blank">使用 hexo 
+  搭建个人博客 01</A></P></LI>
+  <LI>
+  <P><A href="http://www.jianshu.com/p/3ec7069a8993" target="_blank">使用 hexo 
+  搭建个人博客 02</A></P></LI>
+  <LI>
+  <P><A href="http://www.tuicool.com/articles/y6JJV3Z" 
+  target="_blank">Hexo在github上构建免费的Web应用</A></P></LI></UL></DIV></DIV></DIV>
+<DIV class="visitor_edit"><!-- further readings -->         
+<DIV id="further-readings" data-user-nickname="" data-user-slug="">
+<DIV class="hide further-reading-line" id="further-reading-line"></DIV>
+<UL class="reading-list unstyled" id="further-readings-list"></UL>
+<DIV class="reading-edit" id="further-reading-new"><A href="http://www.jianshu.com/sign_in" 
+data-toggle="modal" data-signin-link="true"><I class="fa fa-plus-circle"></I> 
+推荐拓展阅读 </A>            
+<DIV id="further-reading-form"></DIV></DIV></DIV>
+<DIV class="pull-right"><!-- copyright -->           
+<DIV title="转载请联系作者获得授权，并标注“简书作者”。" class="author-copyright pull-right" 
+data-toggle="tooltip" data-html="true"><A><I class="fa fa-copyright"></I> 
+著作权归作者所有</A>           </DIV></DIV></DIV><!-- Reward / Support Author -->        
+ 
+<DIV class="support-author">
+<P>如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！</P><A class="btn btn-pay" href="http://www.jianshu.com/p/3fd8cbc32d50?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qq#pay-modal" 
+data-toggle="modal">¥ 打赏支持</A>           
+<DIV class="avatar-list"></DIV></DIV><!-- article meta bottom -->       
+<DIV class="meta-bottom clearfix"><!--  Like Button -->         
+<DIV class="like ">
+<DIV class="like-button"><A class="like-content" id="like-note" href="http://www.jianshu.com/sign_in" 
+data-toggle="modal" data-signin-link="true"><I class="fa fa-heart-o"></I>  喜欢 
+</A></DIV><SPAN title="查看所有喜欢的用户" id="likes-count" data-toggle="tooltip" 
+data-placement="right"><I class="fa fa-spinner fa-pulse"></I> </SPAN>        
+</DIV><!--  share group -->         
+<DIV class="share-group pull-right"><A href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1881139527',u=z||d.location,p=['&amp;url=',e(u),'&amp;title=',e(t||d.title),'&amp;source=',e(r),'&amp;sourceUrl=',e(l),'&amp;content=',c||'gb2312','&amp;pic=',e(p||'')].join('');function%20a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://cwb.assets.jianshu.io/notes/images/3697491/weibo/image_c14a93d9bb0e.jpg', '推荐 qingfeng825 的文章《Windows下搭建免费个人博客》（ 分享自 @简书 ）','http://www.jianshu.com/p/3fd8cbc32d50','页面编码gb2312|utf-8默认gb2312'));" 
+data-name="weibo"><I class="fa fa-weibo"></I><SPAN>分享到微博</SPAN>           </A>   
+        <A href="http://www.jianshu.com/p/3fd8cbc32d50?utm_campaign=haruki&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qq#share-weixin-modal" 
+data-toggle="modal" data-name="weixin"><I 
+class="fa fa-weixin"></I><SPAN>分享到微信</SPAN>           </A>           
+<DIV class="more"><A href="javascript:void(0)" data-toggle="dropdown">更多分享<I 
+class="fa fa-caret-down"></I></A>             
+<UL class="dropdown-menu arrow-top">
+  <LI><A href="http://cwb.assets.jianshu.io/notes/images/3697491/weibo/image_c14a93d9bb0e.jpg" 
+  target="_blank" data-name="changweibo"><I 
+  class="fa fa-arrow-circle-o-down"></I> 下载长微博图片</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://share.v.t.qq.com/index.php?c=share&amp;a=index&amp;url='+e('http://www.jianshu.com/p/3fd8cbc32d50')+'&amp;title='+e('推荐 qingfeng825 的文章《Windows下搭建免费个人博客》（ 分享自 @jianshuio ）'),x=function(){if(!window.open(r,'tweibo','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();" 
+  data-name="tweibo"><IMG 
+  src="Windows下搭建免费个人博客%20-%20简书_files/tweibo.png">分享到腾讯微博</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+e('http://www.jianshu.com/p/3fd8cbc32d50')+'&amp;title='+e('推荐 qingfeng825 的文章《Windows下搭建免费个人博客》'),x=function(){if(!window.open(r,'qzone','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();" 
+  data-name="qzone"><IMG 
+  src="Windows下搭建免费个人博客%20-%20简书_files/qzone.png">分享到QQ空间</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://twitter.com/share?url='+e('http://www.jianshu.com/p/3fd8cbc32d50')+'&amp;text='+e('推荐 qingfeng825 的文章《Windows下搭建免费个人博客》（ 分享自 @jianshucom ）')+'&amp;related='+e('jianshucom'),x=function(){if(!window.open(r,'twitter','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();" 
+  data-name="twitter"><IMG 
+  src="Windows下搭建免费个人博客%20-%20简书_files/twitter.png">分享到Twitter</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/3fd8cbc32d50',x=function(){if(!window.open(r,'facebook','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();" 
+  data-name="facebook"><IMG 
+  src="Windows下搭建免费个人博客%20-%20简书_files/facebook.png">分享到Facebook</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://plus.google.com/share?url='+e('http://www.jianshu.com/p/3fd8cbc32d50'),x=function(){if(!window.open(r,'google_plus','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();" 
+  data-name="google_plus"><IMG src="Windows下搭建免费个人博客%20-%20简书_files/google_plus.png">分享到Google+</A></LI>
+  <LI><A href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e('http://www.jianshu.com/p/3fd8cbc32d50')+'&amp;title='+e('Windows下搭建免费个人博客')+'&amp;sel='+e(s)+'&amp;v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&amp;r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()" 
+  data-name="douban"><IMG 
+  src="Windows下搭建免费个人博客%20-%20简书_files/douban.png">分享到豆瓣</A></LI></UL></DIV></DIV></DIV><!-- Modals --> 
+      
+<DIV tabindex="-1" class="modal hide fade share-weixin-modal" id="share-weixin-modal" 
+role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+<DIV class="modal-header"><BUTTON class="close" aria-hidden="true" type="button" 
+data-dismiss="modal">×</BUTTON>   </DIV>
+<DIV class="modal-body">
+<H5>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</H5></DIV></DIV>
+<DIV class="panel notebooks-menu arrow-top modal hide fade" 
+id="notebooks-menu"><IMG class="loader-tiny" alt="Tiny" src="Windows下搭建免费个人博客%20-%20简书_files/tiny.gif"></DIV>
+<DIV class="panel collection-menu arrow-top modal hide fade" id="collection-menu"><IMG 
+class="loader-tiny" alt="Tiny" 
+src="Windows下搭建免费个人博客%20-%20简书_files/tiny.gif"></DIV>
+<DIV tabindex="-1" class="modal modal_new support_list-modal fullscreen hide fade" 
+id="likes-modal" role="dialog" aria-hidden="true">
+<DIV class="modal-dialog">
+<DIV class="modal-content">
+<DIV class="modal-header"><BUTTON class="close" aria-hidden="true" type="button" 
+data-dismiss="modal">×</BUTTON>         
+<H3>喜欢的用户</H3></DIV>
+<DIV class="modal-body">
+<UL class="unstyled users"></UL></DIV></DIV></DIV></DIV><!-- Comments -->     
+<DIV class="comment-list clearfix" id="comments">
+<DIV class="comment-head clearfix">23条评论           <SPAN class="order">          
+  （             <A class="active" href="javascript:void(0)" 
+data-order="asc">按时间正序</A>·             <A href="javascript:void(0)" data-order="desc">按时间倒序</A>· 
+            <A href="javascript:void(0)" data-order="likes_count">按喜欢排序</A>      
+      ）           </SPAN>             <A class="goto-comment pull-right" href="http://www.jianshu.com/sign_in" 
+data-toggle="modal" data-signin-link="true"><I class="fa fa-pencil"></I>添加新评论 
+</A>        </DIV>
+<DIV id="comment-list"><IMG class="loader-tiny" alt="Tiny" src="Windows下搭建免费个人博客%20-%20简书_files/tiny.gif"></DIV>
+<P class="signout-comment"><A class="btn btn-info" href="http://www.jianshu.com/sign_in" 
+data-toggle="modal" data-signin-link="true">      登录后发表评论 </A>  </P></DIV><!-- --> 
+  </DIV>
+<SCRIPT type="application/json" data-name="note">
+    {"id":3697491,"abbr":"三步完成免费个人博客搭建，本文主要针对Windows系统我的是WIN10，OSX请参考文章5分钟搭建免费个人博客1.创建Github域名和空间1.1注册首先需要注册一个Github账号，如果你已经有请跳过此步直接看1.2创建仓库，注意username，这会影响到你的域名，你的域名将会是username.github.io，所以认真的取个名字吧。注册过程可能需要验证你的邮箱，其他就不在赘述。1.2创建仓库然后需要创建一个仓库(repository)来存储我们的网站，点击首页任意位置出现的Newrepository...","slug":"3fd8cbc32d50","url":"http://www.jianshu.com/p/3fd8cbc32d50","image_url":"http://cwb.assets.jianshu.io/notes/images/3697491/weibo/image_c14a93d9bb0e.jpg","wordage":1254,"has_further_readings":false,"views_count":1432,"likes_count":115,"comments_count":23,"rewards_total_count":0}
+  </SCRIPT>
+   
+<SCRIPT type="application/json" data-name="uuid">
+    {"uuid":"72ab55e0-f296-0133-8ad3-52540095852f"}
+  </SCRIPT>
+   
+<SCRIPT type="application/json" data-name="author">
+    {"id":1936001,"nickname":"qingfeng825","slug":"3b4c3f065315","public_notes_count":1,"followers_count":15,"total_likes_count":115,"is_current_user":false,"is_signed_author":false}
+  </SCRIPT>
+     
+<DIV class="include-collection">
+<DIV class="content">
+<H5>被以下专题收入，发现更多相似内容：</H5>
+<UL class="unstyled collections-list" id="all-collections">
+  <LI><A class="avatar" href="http://www.jianshu.com/collection/bDHhpK"><IMG 
+  alt="180" src="Windows下搭建免费个人博客%20-%20简书_files/rdn_4ddb18fddd2e9_(1).jpg"></A> 
+               
+  <DIV class="collections-info">
+  <H5><A href="http://www.jianshu.com/collection/bDHhpK">首页投稿</A>                
+   </H5>
+  <DIV class="btn btn-success follow"><A href="http://www.jianshu.com/sign_in" 
+  data-toggle="modal" data-signin-link="true"><I class="fa fa-fw fa-plus"></I>  
+  <SPAN>添加关注</SPAN></A>     <SPAN>95.1K</SPAN>   </DIV>
+  <P class="description">玩转简书的第一步，从这个专题开始。
+   想上首页热门榜么？好内容想被更多人看到么？来投稿吧！如果被拒也不要灰心哦～入选文章会进一个队...</P>
+  <P><A class="blue-link" 
+  href="http://www.jianshu.com/collection/bDHhpK">51646篇文章</A> · 95175人关注        
+           </P></DIV></LI>
+  <LI><A class="avatar" href="http://www.jianshu.com/collection/NEt52a"><IMG 
+  alt="180" src="Windows下搭建免费个人博客%20-%20简书_files/computer_guy.jpg"></A>          
+      
+  <DIV class="collections-info">
+  <H5><A href="http://www.jianshu.com/collection/NEt52a">程序员</A>                 
+  </H5>
+  <DIV class="btn btn-success follow"><A href="http://www.jianshu.com/sign_in" 
+  data-toggle="modal" data-signin-link="true"><I class="fa fa-fw fa-plus"></I>  
+  <SPAN>添加关注</SPAN></A>     <SPAN>83.9K</SPAN>   </DIV>
+  <P class="description">简书程序员大本营 投稿须知： 1.本专题仅收录与程序有关的文章。 2.请在代码框里写代码，尽量保证可看性。
+   关注简书官...</P>
+  <P><A class="blue-link" 
+  href="http://www.jianshu.com/collection/NEt52a">11712篇文章</A> · 83926人关注        
+           </P></DIV></LI>
+  <LI><A class="avatar" 
+  href="http://www.jianshu.com/collection/b477fa3b4040"><IMG alt="180" src="Windows下搭建免费个人博客%20-%20简书_files/android.graphics.Bitmap_91fd96a.jpg"></A> 
+               
+  <DIV class="collections-info">
+  <H5><A href="http://www.jianshu.com/collection/b477fa3b4040">私藏</A>            
+       </H5>
+  <DIV class="btn btn-success follow"><A href="http://www.jianshu.com/sign_in" 
+  data-toggle="modal" data-signin-link="true"><I class="fa fa-fw fa-plus"></I>  
+  <SPAN>添加关注</SPAN></A>     <SPAN>5</SPAN>   </DIV>
+  <P class="description">为开发而生，为开发而死</P>
+  <P><A class="blue-link" 
+  href="http://www.jianshu.com/collection/b477fa3b4040">27篇文章</A> · 5人关注         
+          </P></DIV></LI></UL></DIV></DIV><!-- Modal -->     
+<DIV class="modal pay-modal text-center hide fade" id="pay-modal">
+<DIV class="modal-header clearfix"><BUTTON class="close" aria-hidden="true" 
+type="button" data-dismiss="modal">×</BUTTON>   </DIV>
+<FORM class="new_reward" id="new_reward" action="/notes/3697491/rewards" method="post" 
+target="_blank" accept-charset="UTF-8"><INPUT name="utf8" type="hidden" value="✓"><INPUT name="authenticity_token" type="hidden" value="7IOYwH9PFghTAgZ4I2B24HcpAMUzPy4QvmYrE3pBuf8/BCW1dxHS6I0rq0XnzQw1IS5f6/3sbPSnda0RpO1gjg=="> 
+    
+<DIV class="modal-body"><A href="http://www.jianshu.com/users/3b4c3f065315">
+<DIV class="avatar"><IMG alt="100" src="Windows下搭建免费个人博客%20-%20简书_files/85af15e78aa3.jpg"></DIV></A> 
+     
+<P><I class="fa fa-quote-left pull-left"></I>如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！<I 
+class="fa fa-quote-right pull-right"></I></P>
+<DIV class="main-inputs text-left">
+<DIV class="control-group"><LABEL for="reward_amount">打赏金额</LABEL><I class="fa fa-yen"></I> 
+          <INPUT name="reward[amount_in_yuan]" id="reward_amount_in_yuan" type="text" value="2.00"> 
+        </DIV>
+<DIV class="control-group message"><TEXTAREA name="reward[message]" id="reward_message" placeholder="给Ta留言">给Ta留言</TEXTAREA> 
+        </DIV></DIV>
+<DIV class="choose-pay text-left">
+<H5>选择支付方式：</H5>
+<DIV><LABEL for="reward_channel_alipay"><INPUT name="reward[channel]" id="reward_channel_alipay" 
+type="radio" value="alipay">             <SPAN class="alipay-bg"></SPAN> 
+</LABEL>                     <LABEL for="reward_channel_wx_pub_qr"><INPUT name="reward[channel]" 
+id="reward_channel_wx_pub_qr" type="radio" value="wx_pub_qr">            微信支付 
+</LABEL>        </DIV></DIV></DIV>
+<DIV class="modal-footer"><BUTTON name="button" class="btn btn-large btn-pay" 
+type="submit">立即支付</BUTTON>     </DIV></FORM></DIV>
+<DIV class="modal success-pay text-center hide fade" id="success-pay">
+<DIV class="modal-header clearfix"><BUTTON class="close" aria-hidden="true" 
+type="button" data-dismiss="modal">×</BUTTON>   </DIV>
+<DIV class="modal-body">
+<H3><I class="icon-ok"></I>打赏成功</H3><IMG alt="Complete pay" src="Windows下搭建免费个人博客%20-%20简书_files/complete-pay-25426877089eb23bd76d9d0e6aad89c1.png"> 
+  </DIV>
+<DIV class="modal-footer"></DIV></DIV></DIV></DIV>
+<DIV class="hide" id="flash"></DIV>
+<DIV tabindex="-1" class="modal hide read-modal" id="view-mode-modal" 
+aria-hidden="false" data-js-module="view-mode-modal">
+<DIV class="btn-group change-background" data-toggle="buttons-radio"><A class="btn btn-daytime active" 
+href="javascript:void(null);" data-mode="day"><I class="fa fa-sun-o"></I> </A>   
+   <A class="btn btn-nighttime " href="javascript:void(null);" 
+data-mode="night"><I class="fa fa-moon-o"></I> </A>    </DIV>
+<DIV class="btn-group change-font" data-toggle="buttons-radio"><A class="btn font " 
+href="javascript:void(null);" data-font="font1">宋体</A>       <A class="btn font hei active" 
+href="javascript:void(null);" data-font="font2">黑体</A>     </DIV>
+<DIV class="btn-group change-locale" data-toggle="buttons-radio"><A class="btn font active" 
+href="javascript:void(null);" data-locale="zh-CN">简</A>       <A class="btn font hei " 
+href="javascript:void(null);" data-locale="zh-TW">繁</A>     </DIV></DIV>
+<SCRIPT src="http://cdn-qn0.jianshu.io/assets/base-d268f0005c67dadb25e29097a6a5bb21.js"></SCRIPT>
+     
+<SCRIPT src="http://cdn-qn0.jianshu.io/assets/reading-base-9132a81390eb5b2cc4f21734b0e9cd08.js"></SCRIPT>
+   
+<SCRIPT src="http://cdn-qn0.jianshu.io/assets/reading/module_sets/note_show-12e94137c3593b4c6278c57fead5ad33.js"></SCRIPT>
+   
+<SCRIPT type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35169517-1']);
+  _gaq.push(['_setCustomVar', 2, 'User Type', 'Visitor', 1 ]);
+  _gaq.push(['_trackPageview']);
+
+  
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</SCRIPT>
+ 
+<SCRIPT>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</SCRIPT>
+ </BODY></HTML>
